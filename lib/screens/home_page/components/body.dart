@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:movie_app/screens/home_page/components/generes.dart';
+import 'package:movie_app/screens/home_page/components/movie_carousel.dart';
 import 'package:movie_app/screens/home_page/components/movie_filters.dart';
 
 class Body extends StatelessWidget {
@@ -10,7 +11,7 @@ class Body extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
-      children: [MovieFilters(), Genres()],
+      children: [MovieFilters(), Genres(), MovieCarousel()],
     );
   }
 }

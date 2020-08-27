@@ -13,7 +13,7 @@ class GenresCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       alignment: Alignment.center,
-      margin: EdgeInsets.only(left: kDefaultPadding / 2),
+      margin: EdgeInsets.only(right: kDefaultPadding / 2),
       padding: EdgeInsets.symmetric(
           horizontal: kDefaultPadding, vertical: kDefaultPadding / 4),
       child: Text(
